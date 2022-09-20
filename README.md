@@ -77,6 +77,19 @@ If you pull the repository do not forget to execute: `git submodule update --ini
 
 [UI](https://github.com/ohmyform/ui/tree/master/doc)
 
+## Local Development
+
+The steps are as follows:
+
+    Step One: git clone https://github.com/sethuaung/ohmyform.git
+    Step Two: Modify anything you want to in the source.
+    Step Three: cd ohmyform
+    Setp Four: git submodule update --init
+    Step Five: docker-compose up -d
+    Step Six: docker-compose ps
+
+You should at this point have a working instance to play with at http://localhost:5000/ within moments.
+
 ## Where to get help
 
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/Y2TTePM)
